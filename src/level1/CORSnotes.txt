@@ -1,0 +1,24 @@
+cors - cross origin resource sharing
+
+Browsers when they get response from server, after calling api, , the browsers check the domain of the server response
+if, the response has same origin, i.e. same protocol, port, and domain as that of client url, then only browser allows,
+the client to use server data.if not browser throws cors error.
+
+But due to apis, hosted on different servers, there is no possibility that they are of same origin.
+
+So from server side we can configure or set headers in response like Access-Control-Allow-Origin, which browser sees, and 
+doesnt throw cors errors.
+
+this headers setting is done by cors middleware in node js, by installing npm i cors.
+
+CORS mechanism.
+
+Whenever, there is a need to call browser call a option HTTP call, which is called preflight call,
+and it is due to this call, which we see error in browser.
+
+Browser makes a preflight call, where server responds, with access-control-allow-origin, access-control-allow-headers, access-control-allow-methods,
+Browse checks if these conditions are specified, if not throws a cors error.
+
+If a simple cors request is made, browser just check the access-control-allow-origin, and if not satisfied thrwps error.
+In preflight request, first browser makes an option http request, where it checks the conditions, if not satisifed throws error.
+Condition impplies access-control-allow-headers, access-control-allow-methods, access-control-allow-origin 

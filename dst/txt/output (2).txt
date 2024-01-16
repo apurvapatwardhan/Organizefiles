@@ -1,0 +1,16 @@
+[ 'bfj', 'bfj' ] ort [ [ 'bfj', 'bfj' ] ]
+[ 'bfj', 'bfj' ] aff [ [ 'bfj', 'bfj' ], [ 'ort', 'tro' ] ]
+[ 'ort', 'tro' ] aff [ [ 'bfj', 'bfj' ], [ 'ort', 'tro' ] ]
+[ 'bfj', 'bfj' ] hpr [ [ 'bfj', 'bfj' ], [ 'ort', 'tro' ], [ 'aff', 'ffa' ] ]
+[ 'ort', 'tro' ] hpr [ [ 'bfj', 'bfj' ], [ 'ort', 'tro' ], [ 'aff', 'ffa' ] ]
+[ 'aff', 'ffa' ] hpr [ [ 'bfj', 'bfj' ], [ 'ort', 'tro' ], [ 'aff', 'ffa' ] ]
+[
+  [ 'bfj', 'bfj' ],
+  [ 'ort', 'tro' ],
+  [ 'aff', 'ffa' ],
+  [ 'hpr', 'rph' ]
+]
+bfj 
+tro 
+ffa 
+rph 

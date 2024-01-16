@@ -1,0 +1,9 @@
+[ 'act' ] dgo [ [ 'act' ] ]
+[ 'act' ] act [ [ 'act' ], [ 'god' ] ]
+[ 'act', 'cat' ] dgo [ [ 'act', 'cat' ], [ 'god' ] ]
+[ 'god' ] dgo [ [ 'act', 'cat' ], [ 'god' ] ]
+[ 'act', 'cat' ] act [ [ 'act', 'cat' ], [ 'god' ], [ 'dog' ] ]
+[ [ 'act', 'cat', 'tac' ], [ 'god' ], [ 'dog' ] ]
+act cat tac 
+god 
+dog 
